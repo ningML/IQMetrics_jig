@@ -1,0 +1,30 @@
+﻿  LogPlus.cpp
+c1xx : fatal error C1083: 无法打开源文件: “..\..\extlib\logplus\LogPlus.cpp”: No such file or directory
+  CrossCenter.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(8,10): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  find_centerCentroid.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(8,10): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  find_centerGaussian.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(8,10): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  find_centerGrad.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(8,10): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  find_centerLINES.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(8,10): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  find_centerMTF.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(8,10): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  find_centerTemplate.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(8,10): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  ImageFilter.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ImageFilter.h(2,10): fatal error C1083: 无法打开包括文件: “opencv2/core/base.hpp”: No such file or directory
+  line2Dup.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\line2Dup.h(8,10): fatal error C1083: 无法打开包括文件: “opencv2/core/core.hpp”: No such file or directory
+  lsd.cpp
+  MLCherkerboardDetect.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.h(9,10): fatal error C1083: 无法打开包括文件: “opencv2/core/base.hpp”: No such file or directory
+  ml_gridDetect.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.h(2,10): fatal error C1083: 无法打开包括文件: “opencv2/core/base.hpp”: No such file or directory
+  ml_image_public.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(6,10): fatal error C1083: 无法打开包括文件: “opencv2/core/base.hpp”: No such file or directory
+  ml_rectangleDetection.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(6,10): fatal error C1083: 无法打开包括文件: “opencv2/core/base.hpp”: No such file or directory
+  正在生成代码...

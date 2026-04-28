@@ -1,0 +1,2081 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  LogPlus.cpp
+E:\project\IQMetrics_jig\src\extlib\logplus\LogPlus.cpp(21,1): warning C4273: “LogPlus::getInstance”: dll 链接不一致
+E:\project\IQMetrics_jig\src\extlib\logplus\LogPlus.h(25,19): message : 参见“getInstance”的前一个定义
+E:\project\IQMetrics_jig\src\extlib\logplus\LogPlus.cpp(27,1): warning C4273: “LogPlus::LogPlus”: dll 链接不一致
+E:\project\IQMetrics_jig\src\extlib\logplus\LogPlus.h(28,2): message : 参见“{ctor}”的前一个定义
+E:\project\IQMetrics_jig\src\extlib\logplus\LogPlus.cpp(35,1): warning C4273: “LogPlus::~LogPlus”: dll 链接不一致
+E:\project\IQMetrics_jig\src\extlib\logplus\LogPlus.h(29,3): message : 参见“{dtor}”的前一个定义
+  CrossCenter.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,22): warning C4251: “MLImageDetection::CrossCenter::m_angle1”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,32): warning C4251: “MLImageDetection::CrossCenter::m_angle2”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(109,15): warning C4251: “MLImageDetection::CrossCenter::m_center”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(110,15): warning C4251: “MLImageDetection::CrossCenter::center_offset”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(112,11): warning C4251: “MLImageDetection::CrossCenter::m_img_draw”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(113,11): warning C4251: “MLImageDetection::CrossCenter::m_img”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(116,26): warning C4251: “MLImageDetection::CrossCenter::roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(117,26): warning C4251: “MLImageDetection::CrossCenter::new_roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(55,15): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(60,39): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(68,15): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(195,76): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(195,46): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(196,76): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(196,46): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(200,76): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(200,46): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(201,76): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(201,46): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(204,72): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(204,42): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(205,72): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(205,42): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(209,34): warning C4101: “e”: 未引用的局部变量
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(270,6): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(275,62): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(275,48): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(288,30): warning C4101: “e”: 未引用的局部变量
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(324,50): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(327,77): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(327,48): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+  find_centerCentroid.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,22): warning C4251: “MLImageDetection::CrossCenter::m_angle1”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,32): warning C4251: “MLImageDetection::CrossCenter::m_angle2”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(109,15): warning C4251: “MLImageDetection::CrossCenter::m_center”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(110,15): warning C4251: “MLImageDetection::CrossCenter::center_offset”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(112,11): warning C4251: “MLImageDetection::CrossCenter::m_img_draw”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(113,11): warning C4251: “MLImageDetection::CrossCenter::m_img”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(116,26): warning C4251: “MLImageDetection::CrossCenter::roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(117,26): warning C4251: “MLImageDetection::CrossCenter::new_roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerCentroid.cpp(29,19): warning C4244: “初始化”: 从“__int64”转换到“double”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerCentroid.cpp(30,19): warning C4244: “初始化”: 从“__int64”转换到“double”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerCentroid.cpp(159,24): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerCentroid.cpp(159,21): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerCentroid.cpp(189,43): warning C4244: “=”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerCentroid.cpp(190,27): warning C4244: “=”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+  find_centerGaussian.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,22): warning C4251: “MLImageDetection::CrossCenter::m_angle1”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,32): warning C4251: “MLImageDetection::CrossCenter::m_angle2”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(109,15): warning C4251: “MLImageDetection::CrossCenter::m_center”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(110,15): warning C4251: “MLImageDetection::CrossCenter::center_offset”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(112,11): warning C4251: “MLImageDetection::CrossCenter::m_img_draw”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(113,11): warning C4251: “MLImageDetection::CrossCenter::m_img”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(116,26): warning C4251: “MLImageDetection::CrossCenter::roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(117,26): warning C4251: “MLImageDetection::CrossCenter::new_roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(14,43): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(33,33): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(37,28): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(39,46): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(39,40): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(54,30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(64,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(69,6): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(69,62): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(133,101): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(152,40): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(185,36): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(193,48): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(193,41): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(195,51): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(195,44): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(220,21): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(221,21): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(225,33): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(227,36): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(273,101): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(301,41): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(307,43): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(308,44): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(384,101): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(416,41): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(422,40): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(423,41): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(388,25): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(481,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(481,39): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(496,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(499,9): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(538,97): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(555,40): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(588,37): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(593,51): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(593,47): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(595,48): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(595,44): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(619,21): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(620,21): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(624,33): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(626,36): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(666,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(666,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(678,8): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(687,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(691,10): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(749,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(762,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(768,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(777,8): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(793,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(797,59): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(911,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(938,2): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(961,45): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1019,6): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1025,29): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1026,29): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1032,27): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1036,34): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1038,38): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1043,31): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1044,31): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1046,27): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1053,34): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1055,38): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1066,45): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1070,41): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1072,80): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1072,76): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1072,72): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1072,68): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1072,64): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1072,60): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1123,6): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1129,29): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1130,29): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1136,27): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1139,34): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1141,38): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1147,31): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1148,31): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1150,27): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1157,34): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1159,38): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1169,45): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1173,41): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1175,80): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1175,76): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1175,72): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1175,68): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1175,64): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1175,60): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1211,43): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1211,35): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1238,21): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1243,21): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1249,21): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1254,21): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1340,55): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1369,34): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1371,34): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1375,34): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1377,34): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1382,50): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1387,25): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGaussian.cpp(1389,25): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+  find_centerGrad.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,22): warning C4251: “MLImageDetection::CrossCenter::m_angle1”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,32): warning C4251: “MLImageDetection::CrossCenter::m_angle2”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(109,15): warning C4251: “MLImageDetection::CrossCenter::m_center”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(110,15): warning C4251: “MLImageDetection::CrossCenter::center_offset”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(112,11): warning C4251: “MLImageDetection::CrossCenter::m_img_draw”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(113,11): warning C4251: “MLImageDetection::CrossCenter::m_img”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(116,26): warning C4251: “MLImageDetection::CrossCenter::roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(117,26): warning C4251: “MLImageDetection::CrossCenter::new_roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(80,40): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(82,54): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(82,51): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(93,53): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(96,33): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(96,38): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(99,39): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=uchar
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(116,49): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(116,54): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(117,51): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(119,55): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=uchar
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(130,41): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(130,46): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(131,43): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(133,47): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=uchar
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(137,21): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(148,47): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerGrad.cpp(148,35): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+  find_centerLINES.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,22): warning C4251: “MLImageDetection::CrossCenter::m_angle1”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,32): warning C4251: “MLImageDetection::CrossCenter::m_angle2”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(109,15): warning C4251: “MLImageDetection::CrossCenter::m_center”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(110,15): warning C4251: “MLImageDetection::CrossCenter::center_offset”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(112,11): warning C4251: “MLImageDetection::CrossCenter::m_img_draw”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(113,11): warning C4251: “MLImageDetection::CrossCenter::m_img”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(116,26): warning C4251: “MLImageDetection::CrossCenter::roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(117,26): warning C4251: “MLImageDetection::CrossCenter::new_roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(36,21): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(52,23): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(60,23): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(98,25): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(158,14): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(83,7): warning C4101: “is_inf”: 未引用的局部变量
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(195,56): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(199,56): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(262,14): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(166,7): warning C4101: “is_inf”: 未引用的局部变量
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(370,68): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(398,35): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(400,35): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(404,35): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(406,35): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(411,66): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(416,44): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(418,44): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(441,34): warning C4101: “w”: 未引用的局部变量
+  find_centerMTF.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,22): warning C4251: “MLImageDetection::CrossCenter::m_angle1”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,32): warning C4251: “MLImageDetection::CrossCenter::m_angle2”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(109,15): warning C4251: “MLImageDetection::CrossCenter::m_center”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(110,15): warning C4251: “MLImageDetection::CrossCenter::center_offset”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(112,11): warning C4251: “MLImageDetection::CrossCenter::m_img_draw”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(113,11): warning C4251: “MLImageDetection::CrossCenter::m_img”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(116,26): warning C4251: “MLImageDetection::CrossCenter::roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(117,26): warning C4251: “MLImageDetection::CrossCenter::new_roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerMTF.cpp(17,45): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerMTF.cpp(17,31): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerMTF.cpp(36,30): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerMTF.cpp(53,51): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerMTF.cpp(53,43): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerMTF.cpp(94,34): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerMTF.cpp(106,55): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerMTF.cpp(106,47): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+  find_centerTemplate.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,22): warning C4251: “MLImageDetection::CrossCenter::m_angle1”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,32): warning C4251: “MLImageDetection::CrossCenter::m_angle2”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(109,15): warning C4251: “MLImageDetection::CrossCenter::m_center”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(110,15): warning C4251: “MLImageDetection::CrossCenter::center_offset”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(112,11): warning C4251: “MLImageDetection::CrossCenter::m_img_draw”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(113,11): warning C4251: “MLImageDetection::CrossCenter::m_img”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(116,26): warning C4251: “MLImageDetection::CrossCenter::roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(117,26): warning C4251: “MLImageDetection::CrossCenter::new_roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerTemplate.cpp(21,53): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerTemplate.cpp(21,50): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerTemplate.cpp(27,34): warning C4244: “=”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerTemplate.cpp(28,34): warning C4244: “=”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerTemplate.cpp(38,29): warning C4244: “=”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerTemplate.cpp(39,29): warning C4244: “=”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+  ImageFilter.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ImageFilter.cpp(36,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  line2Dup.cpp
+E:\project\IQMetrics_jig\src\extlib\MIPP\mipp_impl_SSE.hxx(1607,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\project\IQMetrics_jig\src\extlib\MIPP\mipp_impl_SSE.hxx(1827,85): warning C4309: “参数”: 截断常量值
+E:\project\IQMetrics_jig\src\extlib\MIPP\mipp_impl_SSE.hxx(1832,82): warning C4309: “参数”: 截断常量值
+E:\project\IQMetrics_jig\src\ImageDetection\line2Dup.cpp(1039,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\line2Dup.cpp(1046,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\line2Dup.cpp(1311,45): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\line2Dup.cpp(1312,45): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\line2Dup.cpp(1338,23): warning C4244: “=”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\line2Dup.cpp(1339,23): warning C4244: “=”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+  lsd.cpp
+  MLCherkerboardDetect.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.h(80,18): warning C4251: “MLImageDetection::MLCherkerboardDetect::m_rect”: class“cv::Rect_<int>”需要有 dll 接口由 class“MLImageDetection::MLCherkerboardDetect”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(459): message : 参见“cv::Rect_<int>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.h(87,18): warning C4251: “MLImageDetection::MLCherkerboardDetect::m_boardsize”: class“cv::Size_<int>”需要有 dll 接口由 class“MLImageDetection::MLCherkerboardDetect”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\check.hpp(72): message : 参见“cv::Size_<int>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(80,15): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(140,27): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(141,27): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(146,52): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(151,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(152,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(208,45): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(208,28): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(282,27): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(283,27): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(382,47): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(382,39): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(481,7): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(481,92): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(485,39): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(485,31): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(486,52): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(486,34): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(487,42): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(487,31): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(488,55): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(488,34): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(636,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(637,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(638,67): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(645,36): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(645,27): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(689,57): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(701,40): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(701,33): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(719,48): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(783,45): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(957,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(958,7): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(958,59): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(962,12): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(962,64): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(966,12): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(966,62): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(970,12): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(970,60): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(974,12): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(974,68): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(978,12): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(978,66): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(991,65): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(992,65): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(994,58): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(999,65): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1000,65): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1002,58): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1010,58): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1018,58): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1026,58): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1034,58): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1068,29): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1091,47): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1120,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1121,8): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1121,60): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1125,13): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1125,65): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1129,13): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1129,63): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1133,13): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1133,61): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1137,13): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1137,69): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1141,13): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1141,67): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1145,37): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1149,39): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1153,35): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1157,41): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1170,66): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1171,66): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1173,59): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1178,66): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1179,66): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1181,59): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1189,59): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1197,59): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1205,59): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1213,59): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1218,37): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1221,59): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1226,38): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1229,59): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1235,36): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1237,59): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1243,39): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1245,59): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1260,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1284,56): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1312,61): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1319,61): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1326,61): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1333,61): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1493,10): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=uint64
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1509,39): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1512,41): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1539,19): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1585,55): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1589,60): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1619,19): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1620,19): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1630,21): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.cpp(1634,23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  ml_gridDetect.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,22): warning C4251: “MLImageDetection::CrossCenter::m_angle1”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(106,32): warning C4251: “MLImageDetection::CrossCenter::m_angle2”: class“std::vector<float,std::allocator<float>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(264): message : 参见“std::vector<float,std::allocator<float>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(109,15): warning C4251: “MLImageDetection::CrossCenter::m_center”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(110,15): warning C4251: “MLImageDetection::CrossCenter::center_offset”: class“cv::Point_<float>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(192): message : 参见“cv::Point_<float>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(112,11): warning C4251: “MLImageDetection::CrossCenter::m_img_draw”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(113,11): warning C4251: “MLImageDetection::CrossCenter::m_img”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(116,26): warning C4251: “MLImageDetection::CrossCenter::roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.h(117,26): warning C4251: “MLImageDetection::CrossCenter::new_roi_center”: class“std::vector<cv::Point,std::allocator<cv::Point>>”需要有 dll 接口由 class“MLImageDetection::CrossCenter”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\features2d.hpp(516): message : 参见“std::vector<cv::Point,std::allocator<cv::Point>>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.h(80,18): warning C4251: “MLImageDetection::MLCherkerboardDetect::m_rect”: class“cv::Rect_<int>”需要有 dll 接口由 class“MLImageDetection::MLCherkerboardDetect”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\types.hpp(459): message : 参见“cv::Rect_<int>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\MLCherkerboardDetect.h(87,18): warning C4251: “MLImageDetection::MLCherkerboardDetect::m_boardsize”: class“cv::Size_<int>”需要有 dll 接口由 class“MLImageDetection::MLCherkerboardDetect”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\check.hpp(72): message : 参见“cv::Size_<int>”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(83,66): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(83,51): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(83,40): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(83,34): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(318,34): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(319,34): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(323,29): warning C4244: “=”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(350,29): warning C4244: “=”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(369,20): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(371,23): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(381,27): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(383,27): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(413,14): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(414,14): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(416,49): warning C4267: “=”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(419,23): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(467,35): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(467,27): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(468,38): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(468,27): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(469,51): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(469,30): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(470,48): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(470,30): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(475,7): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(475,49): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(501,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(632,38): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(632,30): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(650,38): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(650,30): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(667,38): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(667,30): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(682,38): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(682,30): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(619,17): warning C4101: “finish”: 未引用的局部变量
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(757,67): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(758,67): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(771,35): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(771,26): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(889,16): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(890,16): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(911,21): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(916,23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_gridDetect.cpp(921,16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  ml_image_public.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(143,45): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(204,29): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(206,52): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(206,45): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(206,37): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(206,29): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(231,37): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(231,34): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(266,50): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(296,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(297,44): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(305,35): warning C4244: “=”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(388,24): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(489,6): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(490,18): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(524,35): warning C4244: “参数”: 从“const arma::uword”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(524,22): warning C4244: “参数”: 从“const arma::uword”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(554,12): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(597,43): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(597,20): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(604,12): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(704,13): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(706,22): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(728,14): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(730,23): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(787,12): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(788,12): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(830,13): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(831,13): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(844,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(843,9): warning C4101: “temp”: 未引用的局部变量
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(934,38): warning C4244: “参数”: 从“const arma::uword”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(934,23): warning C4244: “参数”: 从“const arma::uword”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(940,40): warning C4244: “参数”: 从“const arma::uword”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(940,25): warning C4244: “参数”: 从“const arma::uword”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1032,11): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1065,12): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1066,12): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1110,47): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1154,40): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1162,29): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1177,35): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1180,29): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1181,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1182,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1184,33): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1196,27): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1197,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1198,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1200,31): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=short
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1222,38): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1222,35): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1240,40): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1241,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1248,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1265,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1267,56): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1299,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1300,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1302,37): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1303,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1323,51): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1323,41): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1361,38): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1362,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1364,38): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1365,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1390,49): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1396,20): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1399,41): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1399,31): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1403,40): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1403,30): warning C4244: “参数”: 从“_Ty”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1420,18): warning C4244: “初始化”: 从“_Tp”转换到“float”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1421,18): warning C4244: “初始化”: 从“_Tp”转换到“float”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1525,15): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1526,15): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1538,46): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1549,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1576,15): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1577,15): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1628,51): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1628,35): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1650,51): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1650,35): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1724,21): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1725,21): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1726,29): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1727,31): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1732,18): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1733,18): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1734,26): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1735,28): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1799,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1801,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  ml_rectangleDetection.cpp
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.h(24,13): warning C4251: “MLImageDetection::RectangleDetection::m_img_draw”: class“cv::Mat”需要有 dll 接口由 class“MLImageDetection::RectangleDetection”的客户端使用
+E:\project\IQMetrics_jig\src\extlib\opencv4.5.1\build\include\opencv2\core\mat.hpp(797): message : 参见“cv::Mat”的声明
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(96,45): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(96,38): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(97,47): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(97,38): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(98,42): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(98,27): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(99,44): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(99,27): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(105,22): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(106,22): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(107,29): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(108,30): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+  正在生成代码...
+E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1668): warning C4715: “MLImageDetection::MLimagePublic::getOpticalCenterAfterMirror”: 不是所有的控件路径都返回值
+E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(450): warning C4715: “MLImageDetection::CrossCenter::find_centerLINES”: 不是所有的控件路径都返回值
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(218): warning C4715: “MLImageDetection::CrossCenter::find_roi_center”: 不是所有的控件路径都返回值
+E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(293): warning C4715: “MLImageDetection::CrossCenter::get_crossCenterLINES”: 不是所有的控件路径都返回值
+  ImageDetection.vcxproj -> E:\project\jig\x64\Debug\ImageDetection.dll
+  E:\project\jig\x64\Debug\ImageDetection.dll
+  复制了 1 个文件
+  E:\project\IQMetrics_jig\src\extlib\armadillo\lib_win64\libopenblas.dll
+  复制了 1 个文件
+  E:\project\IQMetrics_jig\src\extlib\libcbdetect\lib\x64\Debug\cbdetect.dll
+  复制了 1 个文件
+  E:\project\IQMetrics_jig\src\extlib\libdmtx-0.7.2\x64\Debug\libdmtx.dll
+  复制了 1 个文件
