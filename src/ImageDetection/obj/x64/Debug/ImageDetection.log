@@ -2066,16 +2066,4 @@ E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp(108,30): w
               _Tp=int
           ]
   正在生成代码...
-E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.cpp(1668): warning C4715: “MLImageDetection::MLimagePublic::getOpticalCenterAfterMirror”: 不是所有的控件路径都返回值
-E:\project\IQMetrics_jig\src\ImageDetection\find_centerLINES.cpp(450): warning C4715: “MLImageDetection::CrossCenter::find_centerLINES”: 不是所有的控件路径都返回值
-E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(218): warning C4715: “MLImageDetection::CrossCenter::find_roi_center”: 不是所有的控件路径都返回值
-E:\project\IQMetrics_jig\src\ImageDetection\CrossCenter.cpp(293): warning C4715: “MLImageDetection::CrossCenter::get_crossCenterLINES”: 不是所有的控件路径都返回值
-  ImageDetection.vcxproj -> E:\project\jig\x64\Debug\ImageDetection.dll
-  E:\project\jig\x64\Debug\ImageDetection.dll
-  复制了 1 个文件
-  E:\project\IQMetrics_jig\src\extlib\armadillo\lib_win64\libopenblas.dll
-  复制了 1 个文件
-  E:\project\IQMetrics_jig\src\extlib\libcbdetect\lib\x64\Debug\cbdetect.dll
-  复制了 1 个文件
-  E:\project\IQMetrics_jig\src\extlib\libdmtx-0.7.2\x64\Debug\libdmtx.dll
-  复制了 1 个文件
+E:\project\IQMetrics_jig\src\ImageDetection\ml_rectangleDetection.cpp : fatal error C1090: PDB API 调用失败，错误代码“3”: E:\project\IQMetrics_jig\src\ImageDetection\obj\x64\Debug\vc142.pdb
