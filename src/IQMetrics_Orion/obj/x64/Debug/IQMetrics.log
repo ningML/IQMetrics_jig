@@ -2,4 +2,8 @@
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(E:\project\IQMetrics_jig\src\IQMetrics_Orion\obj\x64\Debug\)包含从另一个项目(IQMetrics.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   ML_CTF.cpp
 E:\project\IQMetrics_jig\src\ImageDetection\ml_image_public.h(61,2): warning C4091: “static ”: 没有声明变量时忽略“MLImageDetection::ROIParaNew”的左侧
-E:\project\IQMetrics_jig\src\IQMetrics_Orion\ML_CTF.cpp : fatal error C1090: PDB API 调用失败，错误代码“3”: E:\project\IQMetrics_jig\src\IQMetrics_Orion\obj\x64\Debug\vc142.pdb
+  IQMetrics.vcxproj -> E:\project\jig\x64\Debug\IQMetrics_orion.dll
+  E:\project\jig\x64\Debug\IQMetrics_orion.dll
+  复制了 1 个文件
+  E:\project\IQMetrics_jig\src\extlib\armadillo\lib_win64\libopenblas.dll
+  复制了 1 个文件
